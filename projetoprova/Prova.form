@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="76" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="btnGerar" min="-2" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Component id="jblminDISCO" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="65" max="-2" attributes="0"/>
+                          <Component id="jblmediaDISCO" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Component id="jblmaxDISCO" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Component id="jblDISCO" alignment="0" max="32767" attributes="0"/>
+                      <Component id="jblMEMORIA" alignment="0" max="32767" attributes="0"/>
+                      <Component id="jblCPU" alignment="0" max="32767" attributes="0"/>
+                      <Component id="pgbCPU" alignment="0" pref="183" max="32767" attributes="0"/>
+                      <Component id="pgbDISCO" alignment="0" max="32767" attributes="0"/>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="jblminMEMORIA" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="47" max="-2" attributes="0"/>
+                          <Component id="jblmediaMEMORIA" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Component id="jblmaxMEMORIA" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Component id="pgbMEMORIA" alignment="0" max="32767" attributes="0"/>
+                      <Group type="102" attributes="0">
+                          <Component id="jblminCPU" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="63" max="-2" attributes="0"/>
+                          <Component id="jblmediaCPU" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Component id="jblmaxCPU" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace pref="141" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jblCPU" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="pgbCPU" min="-2" pref="23" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jblminCPU" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jblmediaCPU" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jblmaxCPU" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="jblDISCO" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="pgbDISCO" min="-2" pref="24" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jblminDISCO" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jblmediaDISCO" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jblmaxDISCO" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+              <Component id="jblMEMORIA" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="pgbMEMORIA" min="-2" pref="23" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jblmaxMEMORIA" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jblmediaMEMORIA" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jblminMEMORIA" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="11" max="32767" attributes="0"/>
+              <Component id="btnGerar" min="-2" pref="44" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jblCPU">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="CPU"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jblDISCO">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="DISCO"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jblMEMORIA">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="MEM&#xd3;RIA"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JProgressBar" name="pgbCPU">
+    </Component>
+    <Component class="javax.swing.JProgressBar" name="pgbDISCO">
+    </Component>
+    <Component class="javax.swing.JProgressBar" name="pgbMEMORIA">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jblminCPU">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Min"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jblmediaCPU">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="M&#xe9;dia"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jblmaxCPU">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="M&#xe1;x"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jblminDISCO">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Min"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jblmediaDISCO">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="M&#xe9;dia"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jblmaxDISCO">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="M&#xe1;x"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jblminMEMORIA">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Min"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jblmediaMEMORIA">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="M&#xe9;dia"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jblmaxMEMORIA">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="M&#xe1;x"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnGerar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Fazer leitura dos dados"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnGerarActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
